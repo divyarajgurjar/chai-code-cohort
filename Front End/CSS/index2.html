@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+        .child {
+            border: 1px dashed;
+        }
+        .item-1{
+            grid-column-end: span 2;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="Website">
+        <div class="Header"></div>
+        <div class="Content"></div>
+        <div class="Ads"></div>
+        <div class="Footer"></div>
+    </div>
+</body>
+</html>
