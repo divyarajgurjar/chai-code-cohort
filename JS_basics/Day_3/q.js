@@ -16,3 +16,4 @@ const person = {
 }
 
 console.log(person.x)
+console.log(person.name)
